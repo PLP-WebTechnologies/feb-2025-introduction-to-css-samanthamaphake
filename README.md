@@ -1,29 +1,22 @@
-# Introduction to CSS
+.list{
+    color: blueviolet;
+}
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
+th{
+    font-weight: bolder;
+    color: red;
+    background-color: black;
+    font-family: 'Georgia', serif;
+}
 
-## Instructions
+form{
+    background-color: darkgray;
+}
 
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
-
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
-
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
-
-Happy Coding! 💻✨
+#image{
+    height: 300px;
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #5a5252;
+}
